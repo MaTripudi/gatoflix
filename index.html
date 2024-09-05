@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <script src="https://kit.fontawesome.com/b357c29d3a.js" crossorigin="anonymous"></script>
+    <title>Gatoflix</title>
+
+<style>
+       header {
+            background-color: #000; /* Fundo preto */
+            color: #fff; /* Texto branco */
+            padding: 10px 0; /* Espaçamento interno */
+        }
+</style>
+
+</head>
+<body>
+    <header>
+        <div class="container">            
+            <img src="img/logo.png" alt="Logo" class="logo">            
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-movie">
+            <div class="container background-image">
+                <h3 class="title-movie">GRAN TURISMO: DE JOGADOR A CORREDOR</h3>
+                <p class="description">O jovem Jann Mardenborough vence uma série de competições do vídeo-game Gran Turismo, promovidas por uma grande empresa automobilística, e ganha a oportunidade de se tornar um piloto profissional.</p>
+                <div class="buttons">
+                    <button id="watchNowButton" role="button" class="button">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="button">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>        
+    </main>
+
+    <div class="carousel-movie">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-movie" src="https://images3.alphacoders.com/132/1324815.jpg" alt="" data-video-url="https://youtu.be/x5pZI-DmtrE?si=T2vSfkH9owbb4_3o">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="https://images.alphacoders.com/112/1120947.jpg" alt="" data-video-url="https://youtu.be/LwSfIbBH8Pw?si=7FaToeRHjZovAcgS">
+            </div> 
+            <div class="item">
+                <img class="box-movie" src="https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/81ed7996-ca0b-4f64-9c44-da9e100f505a/03fb5822df6f9acad4233858c500b62b203826b6.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom" alt="" data-video-url="https://youtu.be/3wZShtq6CYI?si=Z8-bowGvZpi4lWHJ">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="https://manualdosgames.com.br/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-19-at-10.08.39.jpg" alt="" data-video-url="https://youtu.be/bpoE3gK46nc?si=LhCIHfwySlXDo6iy">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="https://i.ytimg.com/vi/YF1eYbfbH5k/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGE4gYShlMA8=&rs=AOn4CLDt6JPoesvmQnP8qf-00JpeDZUfyA" alt="" data-video-url="https://youtu.be/yMnauR8K2Zc?si=XloZUJdq2Nx9wk07">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="https://ogimg.infoglobo.com.br/cultura/12564766-4cc-149/FT1086A/cult-batman-superman.jpg" alt="" data-video-url="https://youtu.be/n7_i3jmG5JI?si=7ieQ0wI5RhXTyoZa">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="https://image.tmdb.org/t/p/w780/zoNOwIWl7uy90XBstpTbH0PkJTg.jpg" alt="" data-video-url="https://youtu.be/FVph5JvN1BU?si=dAs9nk6Nwnj9qvhG">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/EC677314201DF0304D088D12BDE2B50573A713ECDFA621D543084ECC9D8E6832/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp" alt="" data-video-url="https://youtu.be/1c_W_4cNLn0?si=JV_6xfgHS8KA-s7F">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="https://itpeers.com/wp-content/uploads/2020/10/backmirror-1024x631.jpg" alt="" data-video-url="https://youtu.be/v3Z1GG4iIDU?si=vjaY1QdIoOWTk44K">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="https://universodorock.com/wp-content/uploads/2017/10/piratasdocaribe02.jpg" alt="" data-video-url="https://youtu.be/p-qE-gQhGxw?si=Az11nGx4zb9dXToG">
+            </div>
+        </div>        
+    </div>
+
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe id="videoPlayer" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- linkando os arquivos Owl Carousel 2 js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+
+<script>
+        // Obtendo o modal e o iframe
+        var modal = document.getElementById("videoModal");
+        var videoPlayer = document.getElementById("videoPlayer");
+        var span = document.getElementsByClassName("close")[0];
+
+        // Função para abrir o modal e carregar o vídeo
+        function openVideoModal(videoUrl) {
+            videoPlayer.src = videoUrl;
+            modal.style.display = "block";
+        }
+
+        // Função para fechar o modal
+        span.onclick = function() {
+            modal.style.display = "none";
+            videoPlayer.src = "";
+        }
+
+        // Fechar o modal se o usuário clicar fora do conteúdo do modal
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+                videoPlayer.src = "";
+            }
+        }
+
+        // Adicionando evento de clique às imagens do carrossel
+        document.querySelectorAll('.owl-carousel .item img').forEach(img => {
+            img.addEventListener('click', function() {
+                var videoUrl = this.getAttribute('data-video-url');
+                openVideoModal(videoUrl);
+            });
+        });
+
+        // Adicionando evento de clique ao botão "ASSISTIR AGORA"
+        document.getElementById('watchNowButton').addEventListener('click', function() {
+            var videoUrl = 'https://youtu.be/6mQekraNWZM?si=IE5aJacmp1Q2sSJo'; // Substitua pelo URL do vídeo que deseja exibir
+            openVideoModal(videoUrl);
+        });
+    </script>
+
+</body>
+</html>
